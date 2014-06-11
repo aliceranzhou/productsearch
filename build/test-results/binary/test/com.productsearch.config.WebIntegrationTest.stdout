@@ -1,0 +1,276 @@
+Doug Sunny Patch Finney Fish Ball is $6.94
+Doug Sunny Patch Cinco Starfish Ball is $4.93
+Sassy Developmental Sensory Ball Set - Inspires Touch is $6.5
+Toysmith Pro-Ball Set (5" Soccer Ball, 5" Basketball, 6.5" Football) is $16.18
+Gaiam Total Body Balance Ball Kit (75cm) is $17.39
+Champion Sports Playground Ball (Red, 8.5-Inch) is $4.26
+Baby Einstein Bendy Ball is $3.79
+Bubble Ball Free is $0.0
+Ball is $6.49
+KONG Air Dog Squeakair Birthday Balls Dog Toy, Medium, Colors Vary (3 Balls) is $3.04
+7mm Ball Dangle Earrings 9K GF,F2646 is $0.01
+Multi Colour Crystal Gold Filled Ball Stud Earrings,New,D0812 is $0.01
+Yellow Gold Filled  Multi-Color Cubic Zirconia Ball Stud Earrings ,D0013 is $0.01
+Dazzling Yellow Gold Filled Red Ruby Ball Stud Earrings ,D0014 is $0.01
+"Megic Ball" 9K Rose Gold Filled Cubic Zirconia Dangle Earrings,Z2260 is $0.01
+Glass-ball Marbles New Hard Back Case Cover Shell for Huawei Ascend G510 U8951 is $0.01
+Silver/White Gold Filled Multi Colour Crystals Megic Ball Stud Earrings,Z2672 is $0.01
+Stunning Solid Gold Filled Black Onyx Ladies Megic-Ball Stud Earrings,Z2555 is $0.01
+Gorgeous Yellow Gold Filled Red Ruby Ball Stud Earrings,Z2325 is $0.01
+Classic 9K Yellow Gold Filled Cubic Zirconia Megic Ball Dangle Earrings,Z2084 is $0.01
+
+MockHttpServletRequest:
+         HTTP Method = POST
+         Request URI = /
+          Parameters = {keyWords=[ball], postalCode=[n2v2k7]}
+             Headers = {}
+
+             Handler:
+                Type = com.productsearch.web.controller.SearchFormController
+              Method = public org.springframework.web.servlet.ModelAndView com.productsearch.web.controller.SearchFormController.submit(com.productsearch.web.domain.Search,org.springframework.validation.BindingResult)
+
+               Async:
+   Was async started = false
+        Async result = null
+
+  Resolved Exception:
+                Type = null
+
+        ModelAndView:
+           View name = /itemsFound
+                View = null
+           Attribute = search
+               value = com.productsearch.web.domain.Search@4c46491b
+              errors = []
+           Attribute = items
+               value = [com.productsearch.web.domain.Item@204efd53, com.productsearch.web.domain.Item@7595e308, com.productsearch.web.domain.Item@4c5d43eb, com.productsearch.web.domain.Item@70edab58, com.productsearch.web.domain.Item@5a60d664, com.productsearch.web.domain.Item@1c5aac0a, com.productsearch.web.domain.Item@3c84629, com.productsearch.web.domain.Item@21ffbd3b, com.productsearch.web.domain.Item@41c3d796, com.productsearch.web.domain.Item@2a8085ef, com.productsearch.web.domain.Item@775e8caf, com.productsearch.web.domain.Item@4fe801f4, com.productsearch.web.domain.Item@4c225681, com.productsearch.web.domain.Item@6c2f0571, com.productsearch.web.domain.Item@23b48e96, com.productsearch.web.domain.Item@6dd089de, com.productsearch.web.domain.Item@131feb95, com.productsearch.web.domain.Item@753af01f, com.productsearch.web.domain.Item@64eb29e1, com.productsearch.web.domain.Item@46c12a75]
+
+            FlashMap:
+
+MockHttpServletResponse:
+              Status = 200
+       Error message = null
+             Headers = {Content-Type=[text/html;charset=ISO-8859-1]}
+        Content type = text/html;charset=ISO-8859-1
+                Body = <!DOCTYPE html>
+
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Home</title>
+<link rel="stylesheet" href="../../css/styles.css" />
+</head>
+
+<body>
+
+	<h2>Results</h2>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Links</th>
+				<th>Price</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Doug Sunny Patch Finney Fish Ball</td>
+				<td><a href="http://www.amazon.com/Melissa-Doug-Sunny-Patch-Finney/dp/B0049UVG7S%3FSubscriptionId%3DAKIAJ6OVP2LCPWTZOBRQ%26tag%3Didongservice-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB0049UVG7S">Find
+						out more</a></td>
+				<td>6.94</td>
+			</tr><tr>
+				<td>Doug Sunny Patch Cinco Starfish Ball</td>
+				<td><a href="http://www.amazon.com/Melissa-Doug-Sunny-Patch-Starfish/dp/B003AH8JU8%3FSubscriptionId%3DAKIAJ6OVP2LCPWTZOBRQ%26tag%3Didongservice-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB003AH8JU8">Find
+						out more</a></td>
+				<td>4.93</td>
+			</tr><tr>
+				<td>Sassy Developmental Sensory Ball Set - Inspires Touch</td>
+				<td><a href="http://www.amazon.com/Sassy-Developmental-Sensory-Ball-Set/dp/B004AHMCLY%3FSubscriptionId%3DAKIAJ6OVP2LCPWTZOBRQ%26tag%3Didongservice-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB004AHMCLY">Find
+						out more</a></td>
+				<td>6.5</td>
+			</tr><tr>
+				<td>Toysmith Pro-Ball Set (5&quot; Soccer Ball, 5&quot; Basketball, 6.5&quot; Football)</td>
+				<td><a href="http://www.amazon.com/Toysmith-Pro-Ball-Soccer-Basketball-Football/dp/B000PXP3DQ%3FSubscriptionId%3DAKIAJ6OVP2LCPWTZOBRQ%26tag%3Didongservice-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB000PXP3DQ">Find
+						out more</a></td>
+				<td>16.18</td>
+			</tr><tr>
+				<td>Gaiam Total Body Balance Ball Kit (75cm)</td>
+				<td><a href="http://www.amazon.com/Gaiam-Total-Body-Balance-Ball/dp/B000VDTEDA%3FSubscriptionId%3DAKIAJ6OVP2LCPWTZOBRQ%26tag%3Didongservice-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB000VDTEDA">Find
+						out more</a></td>
+				<td>17.39</td>
+			</tr><tr>
+				<td>Champion Sports Playground Ball (Red, 8.5-Inch)</td>
+				<td><a href="http://www.amazon.com/Champion-Sports-Playground-Ball-8-5-Inch/dp/B0016P4ARW%3FSubscriptionId%3DAKIAJ6OVP2LCPWTZOBRQ%26tag%3Didongservice-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB0016P4ARW">Find
+						out more</a></td>
+				<td>4.26</td>
+			</tr><tr>
+				<td>Baby Einstein Bendy Ball</td>
+				<td><a href="http://www.amazon.com/Baby-Einstein-30974-Bendy-Ball/dp/B001UF8BL4%3FSubscriptionId%3DAKIAJ6OVP2LCPWTZOBRQ%26tag%3Didongservice-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB001UF8BL4">Find
+						out more</a></td>
+				<td>3.79</td>
+			</tr><tr>
+				<td>Bubble Ball Free</td>
+				<td><a href="http://www.amazon.com/Nay-Games-LLC-Bubble-Ball/dp/B00653KOZ2%3FSubscriptionId%3DAKIAJ6OVP2LCPWTZOBRQ%26tag%3Didongservice-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00653KOZ2">Find
+						out more</a></td>
+				<td>0.0</td>
+			</tr><tr>
+				<td>Ball</td>
+				<td><a href="http://www.amazon.com/Ball-Mary-Sullivan/dp/0547759363%3FSubscriptionId%3DAKIAJ6OVP2LCPWTZOBRQ%26tag%3Didongservice-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3D0547759363">Find
+						out more</a></td>
+				<td>6.49</td>
+			</tr><tr>
+				<td>KONG Air Dog Squeakair Birthday Balls Dog Toy, Medium, Colors Vary (3 Balls)</td>
+				<td><a href="http://www.amazon.com/Squeakair-Birthday-Balls-Medium-Colors/dp/B00176CT5U%3FSubscriptionId%3DAKIAJ6OVP2LCPWTZOBRQ%26tag%3Didongservice-20%26linkCode%3Dxm2%26camp%3D2025%26creative%3D165953%26creativeASIN%3DB00176CT5U">Find
+						out more</a></td>
+				<td>3.04</td>
+			</tr><tr>
+				<td>7mm Ball Dangle Earrings 9K GF,F2646</td>
+				<td><a href="http://www.ebay.ca/itm/7mm-Ball-Dangle-Earrings-9K-GF-F2646-/310971533793?pt=Fashion_Jewelry">Find
+						out more</a></td>
+				<td>0.01</td>
+			</tr><tr>
+				<td>Multi Colour Crystal Gold Filled Ball Stud Earrings,New,D0812</td>
+				<td><a href="http://www.ebay.ca/itm/Multi-Colour-Crystal-Gold-Filled-Ball-Stud-Earrings-New-D0812-/360946319112?pt=Fashion_Jewelry">Find
+						out more</a></td>
+				<td>0.01</td>
+			</tr><tr>
+				<td>Yellow Gold Filled  Multi-Color Cubic Zirconia Ball Stud Earrings ,D0013</td>
+				<td><a href="http://www.ebay.ca/itm/Yellow-Gold-Filled-Multi-Color-Cubic-Zirconia-Ball-Stud-Earrings-D0013-/251543364836?pt=Fashion_Jewelry">Find
+						out more</a></td>
+				<td>0.01</td>
+			</tr><tr>
+				<td>Dazzling Yellow Gold Filled Red Ruby Ball Stud Earrings ,D0014</td>
+				<td><a href="http://www.ebay.ca/itm/Dazzling-Yellow-Gold-Filled-Red-Ruby-Ball-Stud-Earrings-D0014-/251543372585?pt=Fashion_Jewelry">Find
+						out more</a></td>
+				<td>0.01</td>
+			</tr><tr>
+				<td>&quot;Megic Ball&quot; 9K Rose Gold Filled Cubic Zirconia Dangle Earrings,Z2260</td>
+				<td><a href="http://www.ebay.ca/itm/Megic-Ball-9K-Rose-Gold-Filled-Cubic-Zirconia-Dangle-Earrings-Z2260-/231244764031?pt=Fashion_Jewelry">Find
+						out more</a></td>
+				<td>0.01</td>
+			</tr><tr>
+				<td>Glass-ball Marbles New Hard Back Case Cover Shell for Huawei Ascend G510 U8951</td>
+				<td><a href="http://www.ebay.ca/itm/Glass-ball-Marbles-New-Hard-Back-Case-Cover-Shell-Huawei-Ascend-G510-U8951-/201100648690?pt=US_Cell_Phone_PDA_Cases">Find
+						out more</a></td>
+				<td>0.01</td>
+			</tr><tr>
+				<td>Silver/White Gold Filled Multi Colour Crystals Megic Ball Stud Earrings,Z2672</td>
+				<td><a href="http://www.ebay.ca/itm/Silver-White-Gold-Filled-Multi-Colour-Crystals-Megic-Ball-Stud-Earrings-Z2672-/331216375277?pt=Fashion_Jewelry">Find
+						out more</a></td>
+				<td>0.01</td>
+			</tr><tr>
+				<td>Stunning Solid Gold Filled Black Onyx Ladies Megic-Ball Stud Earrings,Z2555</td>
+				<td><a href="http://www.ebay.ca/itm/Stunning-Solid-Gold-Filled-Black-Onyx-Ladies-Megic-Ball-Stud-Earrings-Z2555-/251543448686?pt=Fashion_Jewelry">Find
+						out more</a></td>
+				<td>0.01</td>
+			</tr><tr>
+				<td>Gorgeous Yellow Gold Filled Red Ruby Ball Stud Earrings,Z2325</td>
+				<td><a href="http://www.ebay.ca/itm/Gorgeous-Yellow-Gold-Filled-Red-Ruby-Ball-Stud-Earrings-Z2325-/331216403591?pt=Fashion_Jewelry">Find
+						out more</a></td>
+				<td>0.01</td>
+			</tr><tr>
+				<td>Classic 9K Yellow Gold Filled Cubic Zirconia Megic Ball Dangle Earrings,Z2084</td>
+				<td><a href="http://www.ebay.ca/itm/Classic-9K-Yellow-Gold-Filled-Cubic-Zirconia-Megic-Ball-Dangle-Earrings-Z2084-/251543483250?pt=Fashion_Jewelry">Find
+						out more</a></td>
+				<td>0.01</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+</html>
+       Forwarded URL = null
+      Redirected URL = null
+             Cookies = []
+
+MockHttpServletRequest:
+         HTTP Method = GET
+         Request URI = /
+          Parameters = {}
+             Headers = {}
+
+             Handler:
+                Type = com.productsearch.web.controller.SearchFormController
+              Method = public org.springframework.web.servlet.ModelAndView com.productsearch.web.controller.SearchFormController.show()
+
+               Async:
+   Was async started = false
+        Async result = null
+
+  Resolved Exception:
+                Type = null
+
+        ModelAndView:
+           View name = /searchForm
+                View = null
+           Attribute = search
+               value = com.productsearch.web.domain.Search@1c5877ac
+              errors = []
+
+            FlashMap:
+
+MockHttpServletResponse:
+              Status = 200
+       Error message = null
+             Headers = {Content-Type=[text/html;charset=ISO-8859-1]}
+        Content type = text/html;charset=ISO-8859-1
+                Body = <!DOCTYPE html>
+
+
+<html>
+
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" media="all" href="../../css/styles.css" />
+</head>
+
+<body>
+
+	<h2>Search</h2>
+
+	<form action="#" method="post">
+
+		<fieldset>
+
+			<div>
+				<label for="keyWords">Keywords: </label> <input type="text" id="keyWords" name="keyWords" value="" />
+			</div>
+			<div>
+				<label for="postalCode">Postal Code: </label> <input type="text" id="postalCode" name="postalCode" value="" />
+			</div>
+
+			<div class="submit">
+				<button type="submit" name="submit">Search</button>
+			</div>
+
+		</fieldset>
+
+	</form>
+
+	<form action="#" method="post">
+		<fieldset>
+			<div class="redirect">
+				<button name="redirect">Search Again</button>
+			</div>
+			<div class="sortPrice">
+				<button name="sortPrice">Sort by Price</button>
+			</div>
+			<div class="sortAlpha">
+				<button name="sortAlpha">Sort Alphabetically</button>
+			</div>
+			<div class="sortPrice">
+				<button name="sortPrice">Sort by Price</button>
+			</div>
+		</fieldset>
+	</form>
+
+</body>
+
+</html>
+       Forwarded URL = null
+      Redirected URL = null
+             Cookies = []

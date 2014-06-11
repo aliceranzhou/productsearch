@@ -1,0 +1,81 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.productsearch.web.controller.SiteIntegrationTest" tests="2" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="Alices-MacBook-Pro.local" time="1.401921781279E9">
+  <properties/>
+  <testcase name="rootUrlforwardsCorrectly" classname="com.productsearch.web.controller.SiteIntegrationTest" time="0.132"/>
+  <testcase name="submitsCorrectly" classname="com.productsearch.web.controller.SiteIntegrationTest" time="0.068"/>
+  <system-out><![CDATA[
+MockHttpServletRequest:
+         HTTP Method = GET
+         Request URI = /
+          Parameters = {}
+             Headers = {}
+
+             Handler:
+                Type = com.productsearch.web.controller.SearchFormController
+              Method = public org.springframework.web.servlet.ModelAndView com.productsearch.web.controller.SearchFormController.show()
+
+               Async:
+   Was async started = false
+        Async result = null
+
+  Resolved Exception:
+                Type = null
+
+        ModelAndView:
+           View name = /searchForm
+                View = null
+           Attribute = search
+               value = null
+
+            FlashMap:
+
+MockHttpServletResponse:
+              Status = 200
+       Error message = null
+             Headers = {}
+        Content type = null
+                Body = 
+       Forwarded URL = /WEB-INF/views/searchForm.html
+      Redirected URL = null
+             Cookies = []
+
+MockHttpServletRequest:
+         HTTP Method = POST
+         Request URI = /
+          Parameters = {keyWords=[ball], postalCode=[n2v2k7]}
+             Headers = {}
+
+             Handler:
+                Type = com.productsearch.web.controller.SearchFormController
+              Method = public org.springframework.web.servlet.ModelAndView com.productsearch.web.controller.SearchFormController.submit(com.productsearch.web.domain.Search,org.springframework.validation.BindingResult)
+
+               Async:
+   Was async started = false
+        Async result = null
+
+  Resolved Exception:
+                Type = null
+
+        ModelAndView:
+           View name = /itemsFound
+                View = null
+           Attribute = search
+               value = com.productsearch.web.domain.Search@6af5679
+              errors = []
+           Attribute = items
+               value = []
+
+            FlashMap:
+
+MockHttpServletResponse:
+              Status = 200
+       Error message = null
+             Headers = {}
+        Content type = null
+                Body = 
+       Forwarded URL = /WEB-INF/views/itemsFound.html
+      Redirected URL = null
+             Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

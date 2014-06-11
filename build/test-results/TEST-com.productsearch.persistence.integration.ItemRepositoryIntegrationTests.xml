@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<testsuite name="com.productsearch.persistence.integration.ItemRepositoryIntegrationTests" tests="1" failures="0" errors="0" timestamp="2014-06-04T22:43:00" hostname="Alices-MacBook-Pro.local" time="0.176">
+  <properties/>
+  <testcase name="thatItemIsInsertedIntoRepoWorks" classname="com.productsearch.persistence.integration.ItemRepositoryIntegrationTests" time="0.176"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

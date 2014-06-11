@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link th:href="@{/resources/css/styles.css}"
+	href="../../resources/css/styles.css" rel="stylesheet"></link>
+</head>
+
+<body>
+
+	<h2>Search</h2>
+
+	<form action="#" th:object="${search}" method="post">
+		<fieldset>
+			<div>
+				<label for="keyWords">Keywords: </label> <input type="text"
+					th:field="*{keyWords}" />
+			</div>
+			<div>
+				<label for="postalCode">Postal Code: </label> <input type="text"
+					th:field="*{postalCode}" />
+			</div>
+
+			<div class="submit">
+				<button type="submit" name="submit">Search</button>
+			</div>
+		</fieldset>
+	</form>
+</body>
+
+</html>

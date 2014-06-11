@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Home</title>
+<link href="../../resources/css/styles.css" rel="stylesheet"></link>
+</head>
+
+<body>
+
+	<h2>Results</h2>
+
+	<section class="list">
+		<header class="header">
+			<h1 class="text">Products</h1>
+		</header>
+		<div class="item" th:each="basketItem : ${basket.items}">
+			<div th:text="${basketItem.name}">Papaya</div>
+			<div th:text="${basketItem.price}">1.50</div>
+		</div>
+	</section>
+
+	<form action="searchAgain" method="post">
+		<fieldset>
+			<div class="searchAgain">
+				<button type="submit" name="searchAgain">Search Again</button>
+			</div>
+		</fieldset>
+	</form>
+
+	<form action="sortPrice" method="post">
+		<fieldset>
+			<div class="sortPrice">
+				<button type="submit" name="sortPrice">Sort by Price
+					(Increasing)</button>
+			</div>
+		</fieldset>
+	</form>
+</body>
+
+</html>
