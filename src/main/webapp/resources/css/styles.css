@@ -53,11 +53,27 @@ form div>ul li {
 
 form div.submit {
 	margin-top: 40px;
-	background-color: #ACD1E9;
 	text-align: center;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	border: 1px solid #000000;
+	border-radius: 5px;
+	
+	background-color: #7583B2;
+	border: 1px solid #FFE09C;
+}
+
+form div.optionbutton {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+}
+
+form fieldset.optionfield {
+	border-radius: 5px;
+	border: 0px solid #ffffff;
+	margin: 0px;
+	padding: 0px;
 }
 
 .list {
@@ -67,14 +83,14 @@ form div.submit {
 div.odd {
 	border-radius: 5px;
 	height: 40px;
-	background-color: #A1AED9;
+	background-color: #FFEEC8;
 	padding: 5px;
 }
 
 div.even {
 	border-radius: 5px;
 	height: 40px;
-	background-color: #FFE8B5;
+	background-color: #B0B9D9;
 	padding: 5px;
 }
 
@@ -97,8 +113,12 @@ div.even {
 }
 
 .bottom {
+	margin-top: 10px;
+	border-radius: 10px;
+	
+	background-color: #7583B2;
+	border: 1px solid #FFE09C;
 	clear: both;
-	'
 }
 
 .blackoverlay {

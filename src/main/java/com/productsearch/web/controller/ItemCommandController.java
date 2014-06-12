@@ -23,17 +23,33 @@ public class ItemCommandController {
 	@Autowired
 	private Basket basket;
 
-	//redirects searchAgain to the search form
+	// redirects searchAgain to the search form
 	@RequestMapping(value = "/searchAgain", method = RequestMethod.POST)
 	public String searchAgain() {
 		return "redirect:/";
 	}
 
-	//sorts the basket and redirects to /showItems
-	@RequestMapping(value = "/sortPrice", method = RequestMethod.POST)
-	public String sortPrice(@ModelAttribute("basket") Basket basket) {
+	// sorts the basket and redirects to /showItems
+	@RequestMapping(value = "/sortPriceUp", method = RequestMethod.POST)
+	public String sortPriceUp(@ModelAttribute("basket") Basket basket) {
 		LOG.debug("items to be sorted");
-		basket.reset(itemService.sortPrice(basket.getItems()));
+		basket.reset(itemService.sort(basket.getItems(), "priceUp"));
+		return "redirect:/showItems";
+	}
+
+	// sorts the basket and redirects to /showItems
+	@RequestMapping(value = "/sortPriceDown", method = RequestMethod.POST)
+	public String sortPriceDown(@ModelAttribute("basket") Basket basket) {
+		LOG.debug("items to be sorted");
+		basket.reset(itemService.sort(basket.getItems(), "priceDown"));
+		return "redirect:/showItems";
+	}
+
+	// sorts the basket and redirects to /showItems
+	@RequestMapping(value = "/sortAlpha", method = RequestMethod.POST)
+	public String sortAlpha(@ModelAttribute("basket") Basket basket) {
+		LOG.debug("items to be sorted");
+		basket.reset(itemService.sort(basket.getItems(), "alpha"));
 		return "redirect:/showItems";
 	}
 

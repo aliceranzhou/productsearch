@@ -7,5 +7,5 @@ import com.productsearch.web.domain.Item;
 //interface for service
 public interface ItemService {
 
-	public List<Item> sortPrice(List<Item> items);
+	public List<Item> sort(List<Item> items, String type);
 }

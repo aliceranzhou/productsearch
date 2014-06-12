@@ -17,7 +17,7 @@ public class ItemQueryController {
 	//shows Items
 	@RequestMapping(value = "/showItems", method = RequestMethod.GET)
 	public String show(@ModelAttribute("basket") Basket basket) {
-		return "/popuptrial";
+		return "/showItems";
 	}
 
 	@ModelAttribute("basket")
