@@ -1,6 +1,4 @@
 ProductSearch
 =============
 
-This is a project that I did for my Grade 12 Summative project.
-
-It is a client-side Spring MVC application that accesses API product data via REST requests.
+A client-side Spring MVC application that accesses data from Amazon Product Advertising API and Ebay Finding API via REST requests. Created as part of a grade 12 computer science class.
