@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+		$("button[name='show']").click(function() {
+			var number = $(this).attr('id');
+			$("div[id$='" + number + "']").show();
+		});
+		$("button[name='hide']").click(function() {
+			var number = $(this).attr('id');
+			$("div[id$='" + number + "']").hide();
+		});
+	});
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Results</title>
+<link href="../../resources/css/styles.css"
+	th:href="@{/resources/css/styles.css}" rel="stylesheet"></link>
+</head>
+
+<body>
+
+	<h2>Results</h2>
+
+	<section class="list">
+		<div th:if="${basket.size==0}">Sorry, there were no products
+			that matched your specifications. Please try again.</div>
+		<div th:each="basketItem,iterStat: ${basket.items}"
+			th:class="${iterStat.odd} ? 'odd':'even'"
+			th:with="n=${iterStat.count}">
+			<div class="left" th:text="${basketItem.name}">Papaya</div>
+			<div class="middle" th:text="${basketItem.price}">1.50</div>
+			<button class="right" th:id="${'show'+n}" name="show">Details</button>
+			<div class="whitecontent" th:id="${'lightshow'+n}">
+				<h3>Details</h3>
+				<table>
+					<tbody>
+						<tr th:if="${basketItem.name!=null}">
+							<td>Name</td>
+							<td th:text="${basketItem.name}">Ball</td>
+						</tr>
+						<tr th:if="${basketItem.description!=null}">
+							<td>Description</td>
+							<td th:text="${basketItem.description}">Ball</td>
+						</tr>
+						<tr class="odd" th:if="${basketItem.manufacturer!=null}">
+							<td>Manufacturer</td>
+							<td th:text="${basketItem.manufacturer}">Ball</td>
+						</tr>
+						<tr th:if="${basketItem.productGroup!=null}">
+							<td>Product Group</td>
+							<td th:text="${basketItem.productGroup}">Ball</td>
+						</tr>
+						<tr th:if="${basketItem.detailPageURL!=null}">
+							<td>More Details</td>
+							<td><a th:text="${basketItem.detailPageURL}"
+								th:href="${basketItem.detailPageURL}">Url</a></td>
+						</tr>
+						<tr th:if="${basketItem.reviewURL!=null}">
+							<td>Reviews</td>
+							<td><a th:text="${basketItem.reviewURL}"
+								th:href="${basketItem.reviewURL}">Url</a></td>
+						</tr>
+
+						<tr th:if="${basketItem.price!=null}">
+							<td>Price</td>
+							<td th:text="${'$'+basketItem.price}">Ball</td>
+						</tr>
+						<tr th:if="${basketItem.shippingCost!=null}">
+							<td>Shipping Cost</td>
+							<td th:text="${'$'+basketItem.shippingCost}">Ball</td>
+						</tr>
+						<tr th:if="${basketItem.condition!=null}">
+							<td>Condition</td>
+							<td th:text="${basketItem.condition}">Ball</td>
+						</tr>
+						<tr th:if="${basketItem.id!=null}">
+							<td>ID</td>
+							<td th:text="${basketItem.id}">Ball</td>
+						</tr>
+					</tbody>
+				</table>
+				<button th:id="${n}" name="hide">Hide</button>
+			</div>
+			<div class="blackoverlay" th:id="${'darkshow' + n}"></div>
+		</div>
+
+	</section>
+	<section class="bottom">
+		<form class="options" action="sortPriceUp" method="post">
+			<fieldset class="optionfield">
+				<div class="optionbutton">
+					<button type="submit" name="sortPriceUp">Sort by Price
+						(Low to High)</button>
+				</div>
+			</fieldset>
+		</form>
+		<form class="options" action="sortPriceDown" method="post">
+			<fieldset class="optionfield">
+				<div class="optionbutton">
+					<button type="submit" name="sortPriceDown">Sort by Price
+						(High to Low)</button>
+				</div>
+			</fieldset>
+		</form>
+		<form class="options" action="sortAlpha" method="post">
+			<fieldset class="optionfield">
+				<div class="optionbutton">
+					<button type="submit" name="sortAlpha">Sort Alphabetically</button>
+				</div>
+			</fieldset>
+		</form>
+		<form class="options" action="searchAgain" method="post">
+			<fieldset class="optionfield">
+				<div class="optionbutton">
+					<button type="submit" name="searchAgain">Search Again</button>
+				</div>
+			</fieldset>
+		</form>
+	</section>
+</body>
+
+</html>
